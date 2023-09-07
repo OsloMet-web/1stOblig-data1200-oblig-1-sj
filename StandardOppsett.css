@@ -1,0 +1,31 @@
+body {
+	background: whitesmoke;
+	border-color: black;
+	text-align: center;
+}
+
+nav {
+	background: darkgrey;
+	border: 2px;
+	border-color: black;
+	display: flex;
+	grid-template-columns: auto-repeat(5, 1fr);
+}
+
+nav a {
+	padding-left: 30px;
+	padding-right: 30px;
+	color: black;
+	font-size: 16px;
+}
+
+nav p {
+	padding-left: 30px;
+	padding-right: 30px;
+	color: black;
+	font-size: 16px;
+}
+
+.active {
+	background-color: orange;
+}
